@@ -1,4 +1,10 @@
-FactoryGirl.define do
+FactoryGirl.define do  factory :model do
+    
+  end
+  factory :comment do
+    
+  end
+
   factory :user do
     sequence :email do |n|
       "dummyEmail#{n}@gmail.com"
